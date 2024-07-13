@@ -1,0 +1,133 @@
+ /* banner 1 Start*/ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu{
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+    justify-items: center;
+    margin: auto;
+    color: azure;
+
+}
+.menu h2{
+    margin-top: 10px;
+}
+.container{
+    width: 100%;
+    margin: auto;
+}
+.menu ul{
+    list-style: none;
+
+}
+
+.food_banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url('banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+
+text-decoration: none;
+padding: 15px 20px ;
+color: #a3adad;
+display: inline-block;
+transition: 0.3s;
+font-size: 18px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.menu ul li a:hover{
+   
+    color: #c48c15;
+}
+.banner{
+   width: 100%;
+   height: 90vh;
+
+ 
+}
+.banner_box{
+   padding-top: 16%;
+   padding-left: 10%;
+}
+.banner_box h1{
+  font-size: 65px ;
+  color:white ;
+  text-transform: uppercase;
+font-family: Arial, Helvetica, sans-serif;
+}
+.banner_box h6{
+    font-size: 15px;
+    color: #f5ececb6;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+   
+}
+span{
+    color: #c98901;
+}
+button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    background-color: #c98901;
+    margin-top: 40px;
+    border: 1px solid #c98901; 
+    transition: 0.3s;
+
+}
+button:hover{
+    background-color: transparent;
+     /* banner 1 End*/ 
+
+}
+    /* banner 2 start*/
+   
+    
+     
+    
+    .second_banner{
+
+
+        
+        background-image: url('home-7860106_1920.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+         background-position: center center;
+         width: 100%;
+     height: 100vh;
+    }
+   .banner_box button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: azure;
+    background-color: black;
+   margin-top: 40px;
+   border: 1px solid white;
+   transition: 0.3s;
+   }
+   button:hover{
+    background-color: transparent;
+   }
+   .second_tittle{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+   }
+        /* banner 2 End*/ 
+      
+
+
+
+
+
+
+
